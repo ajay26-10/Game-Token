@@ -19,5 +19,4 @@ contract AJToken is ERC20{
     function Mint(address t_holder, uint value) public onlyAdmin {
         _mint(t_holder,value);
     }
-    
 }
